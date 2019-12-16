@@ -1,0 +1,16 @@
+<div class="container-fluid" id=tarefas>
+
+    <div *ngFor="let _tarefa of minhaTarefa">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>
+                    {{ _tarefa.nome }}
+                </h4>
+                <p>
+                    {{ _tarefa.responsavel }}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
